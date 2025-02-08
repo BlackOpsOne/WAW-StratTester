@@ -1350,8 +1350,8 @@ spawn_point_override()
 	side2 = south_structs;
 	if(randomint(100)>50)
 	{
-		side1 = south_structs;
-		side2 = south_structs;
+		side1 = north_structs;
+		side2 = north_structs;
 	}
 		
 	//spawn players on a specific side, but randomize it up a bit
